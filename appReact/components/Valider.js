@@ -30,7 +30,7 @@ class Valider extends React.Component {
 
   reinit = () => {
     this.setState({ input : 0, msg : ""})
-    this.number = new this.number()
+    this.number = Math.round((Math.random()* 100) + 1);
   }
 
   render() {
