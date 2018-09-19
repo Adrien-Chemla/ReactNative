@@ -50,8 +50,6 @@ class Valider extends React.Component {
 const styles = StyleSheet.create({
   main_container: {
     marginTop: 20,
-    size: 10,
-    flex : 1
   },
   textinput: {
     marginLeft: 5,
